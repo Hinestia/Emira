@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/Prod/Emira/src -name *.py -type f)",
+      "Bash(find /d/Prod/Emira/src -name \"*.py\" -type f -exec wc -l {} +)",
+      "Bash(touch src/__init__.py src/api/__init__.py src/db/__init__.py src/schemas/__init__.py src/services/__init__.py)",
+      "Bash(rm src/db/session.py)"
+    ]
+  }
+}
